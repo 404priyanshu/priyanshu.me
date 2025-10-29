@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import './Header.css'
 
 function Header() {
@@ -13,12 +13,12 @@ function Header() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = useCallback((sectionId) => {
     const element = document.getElementById(sectionId)
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' })
     }
-  }
+  }, [])
 
   return (
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>

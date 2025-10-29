@@ -11,8 +11,14 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault()
     // Handle form submission here
-    console.log('Form submitted:', formData)
+    // In a real application, this would send data to a backend API
     alert('Thanks for reaching out! This is a demo form.')
+    // Reset form after submission
+    setFormData({
+      name: '',
+      email: '',
+      message: ''
+    })
   }
 
   const handleChange = (e) => {
