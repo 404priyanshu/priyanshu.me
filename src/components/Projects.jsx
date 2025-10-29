@@ -7,8 +7,6 @@ function Projects() {
       role: 'Director',
       year: '2022-24',
       description: 'Crafted Vercel, Next.js, and conference sites. Enhanced the dashboard and docs, elevated the design system, and directed Design Engineering.',
-      tech: ['React', 'Next.js', 'TypeScript'],
-      github: '#',
       demo: '#'
     },
     {
@@ -16,8 +14,6 @@ function Projects() {
       role: 'Lead',
       year: '2019-22',
       description: 'Product ideas for macOS and web. Founded Prism, a reshaping of brand, platforms and internal ecosystems. Directed designers and product teams.',
-      tech: ['Design', 'Product', 'Strategy'],
-      github: '#',
       demo: '#'
     },
     {
@@ -25,8 +21,6 @@ function Projects() {
       role: 'Principal',
       year: '2011-19',
       description: 'Creativity for enterprise and startups of the app store goldrush. Built a design team and culture.',
-      tech: ['iOS', 'Android', 'Design'],
-      github: '#',
       demo: '#'
     },
     {
@@ -34,8 +28,6 @@ function Projects() {
       role: 'Misc',
       year: 'Misc',
       description: 'Playing around with photography, interaction, created a music app, and dabble with design tools.',
-      tech: ['Photography', 'Music', 'Tools'],
-      github: '#',
       demo: '#'
     }
   ]
