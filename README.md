@@ -28,6 +28,8 @@ bookmarks.
 
 ## 🚀 Running Locally
 
+> **Note:** This project uses [Bun](https://bun.sh) as its package manager. Please ensure you have Bun installed before proceeding.
+
 ```bash
 # Clone the repository
 git clone https://github.com/404priyanshu/priyanshu.me.git
